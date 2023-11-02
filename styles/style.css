@@ -1,0 +1,49 @@
+
+
+@font-face { font-family: "Speedbeast" ;  
+    src: url('../assets/fonts/speedbeast/SpeedBeast.ttf') format('truetype'); 
+} 
+
+:root{
+    --brown: #812b0f;
+    --creme: #ffe4ad;
+}
+
+html {
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    }  
+
+body{
+    margin:0;
+    background-color: var(--creme);
+}
+
+.container{
+    padding: 0 10%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: "Speedbeast";
+    color: var(--brown);
+    }
+
+p{
+    font-size: 2rem;
+    line-height: 2;
+    letter-spacing: 1px;
+    }
+
+.header-banner{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    overflow: hidden;
+}
+
+.header-img{
+    width:100%;
+    height: fit-content;
+}
